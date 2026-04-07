@@ -1,0 +1,114 @@
+# 开发环境
+## 虚拟环境
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+## IDE配置文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 📂 项目本地文件夹（不上传GitHub）
+# ==============================================
+agent_1/  
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python开发
+## 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+## 包管理
+poetry.lock
+*.egg-info/
+
+## 测试
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 前端开发
+## 依赖
+node_modules/
+.npm
+.pnpm
+.yarn-integrity
+
+## 构建产物
+/dist
+/.vite
+*.local
+
+# 数据文件
+## 缓存
+.cache/
+data/cache/
+
+
+## 数据库
+*.sqlite
+*.sqlite3
+data/chromadb/
+
+
+## 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 构建与打包
+build/
+dist/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+*.tmp
+*.temp
+.~*
+*~
+
+# 编辑器/系统
+*.swp
+*.swo
+
+# 可执行文件
+*.exe
+*.dll
+*.so
+*.dylib
+data/knowledge_base_data/global_metadata.json
+data/knowledge_base_data/chroma_data/metadata_chroma.json
+data/knowledge_base_data/chroma_data/chromadb/c63cc355-56fc-4a3a-8df2-4c5d0c8c1423/data_level0.bin
+data/knowledge_base_data/chroma_data/chromadb/c63cc355-56fc-4a3a-8df2-4c5d0c8c1423/header.bin
+data/knowledge_base_data/chroma_data/chromadb/c63cc355-56fc-4a3a-8df2-4c5d0c8c1423/length.bin
+.trae/documents/左右分栏布局主界面实现.md
+data/knowledge_base_data/chroma_data/chromadb/c63cc355-56fc-4a3a-8df2-4c5d0c8c1423/link_lists.bin
+data/knowledge_base_data/chroma_data/kb_8f70a13918811436348933387ee5c158/uploads/测试_1bc5.txt
